@@ -12,16 +12,18 @@ $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
     var word = $("#word").val();
-    console.log(word);
-    // if (a) {
-    //   word.concat("ay");
-    //
+
+    if (a === true) {
+      var pigLatin = word.concat("ay");
+
+    };
+
+    // else {
+    //   alert("error");
     // }
 
 
-
-
-
+console.log(pigLatin);
   });
 
 });
